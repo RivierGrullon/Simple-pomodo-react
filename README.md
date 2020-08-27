@@ -1,8 +1,8 @@
 ## Installation
 
 ```Bash
-git clone git@github.com:jose1897/minimal-react-webpack-babel-setup.git
-cd minimal-react-webpack-babel-setup
+clone the repository
+cd Simple-pomodoro-react
 npm install
 npm start
 ```
