@@ -1,0 +1,55 @@
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #F36055;
+  color: #F6F5F6;
+  width: 100%;
+}
+
+.App {
+  margin: 0 auto;
+  padding: 5rem 1.25rem;
+  text-align: center;
+}
+
+.btn {
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-size: 18px;
+  display: inline-block;
+  min-width: 250px;
+  margin-top: 280px;
+  margin-bottom: 28px;
+  outline: 0;
+  border: 2px solid #F6F5F6;
+  color: #F6F5F6;
+  font-weight: 300;
+  padding: 6px 8px;
+  box-shadow: none;
+  background: none;
+  border-radius: 6px;
+  transition: 0.2s all ease-in;
+}
+.btn:hover {
+  background-color: #F6F5F6;
+  color: #F36055;
+}
+
+
+.timer__time {
+  font-size: 1.5rem;
+}
+
+.input-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 8px;
+  font-size: 16px;
+  text-align: left;
+  clear: both;
+}
+

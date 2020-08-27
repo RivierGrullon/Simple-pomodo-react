@@ -1,5 +1,10 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
+import Timer from "./Components/Timer";
+function App() {
+  return(
+    <Timer/>
+  )
+}
 
-export default () => {
-  return <h1>React app</h1>
-};
+export default App;
+
